@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do aluno</title>
+</head>
+<body>
+    <h1>Bem Vindo Aluno(a)</h1>
+    <h2>Faça seu cadastro aqui</h2>
+    <section>
+        <form action="index.html">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required maxlength="15"><br>
+
+            <label for="data_nasc">Data de Nascimento:</label>
+            <input type="date" id="data_nasc" name="data_nasc" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="turma">Turma:</label>
+            <select name="turma" id="turma">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            </select><br>
+
+            <label for="genero">Gernero:</label><br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero">
+
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero">
+
+            <label for="outro">Outro</label>
+            <input type="radio" id="outro" name="outro"><br>
+            
+
+            <label for="preferencias">Preferências:</label><br>
+            <label for="esportes">Esportes</label>
+            <input type="checkbox" id="esportes" name="esportes">
+
+            <label for="Musica">Música</label>
+            <input type="checkbox" id="musica" name="musica">
+
+            <label for="arte">Arte</label>
+            <input type="checkbox" id="arte" name="arte"><br>
+        
+            <label for="observações">Observações:</label><br>
+            <textarea name="observações" id="observações"></textarea>
+            <br>
+
+            <button type="submit">Submeter</button>
+        </form>
+    </section>
+    
+</body>
+</html>
